@@ -1,0 +1,1 @@
+pic_share_client为app客户端，需要link library这个项目

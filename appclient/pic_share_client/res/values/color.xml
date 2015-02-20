@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> 
+    <color name="main_bg_color">#03AA52</color> 
+    <color name="top_menu_bg">#CCCCCC</color>
+    <color name="white">#ffffff</color> 
+    <color name="third_bg">#F1F1F1</color>
+    <color name="black">#000000</color> 
+    <color name="white2">#f3f3f3</color> 
+    <color name="font_base">#505050</color> 
+    <color name="font_base2">#69CD97</color> 
+    <color name="font_msg">#8d8d8d</color> 
+    <color name="font_title">#599229</color> 
+    <color name="font_msg_bg">#f9f9f9</color> 
+    <color name="font_hint">#666</color> 
+    
+    <color name="main_top_right_normal">#70b43d</color> 
+    <color name="main_top_right_selete">#e2f8d4</color> 
+    <color name="main_top_right_font_selete">#5c9336</color> 
+    <color name="main_top_right_font_msg">#c5c5c5</color> 
+    
+     
+    <color name="order_list_divider">#d9d9d9</color> 
+    <color name="order_list_selete">#e7f5de</color> 
+    
+    <color name="custom_title_text_top">#b6e098</color> 
+    <color name="custom_title_text_bg_left">#7ec24b</color> 
+    <color name="custom_title_text_bg_right">#80c44d</color> 
+    <color name="custom_title_text_bottom1">#477f1a</color> 
+    <color name="custom_title_text_bottom2">#cfcfcf</color> 
+    <color name="custom_title_text_bottom3">#e7e7e7</color> 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <color name="txt_action_bar">#ffffffff</color>
+    <color name="txt_action_bar_menu">#ffffffff</color>
+    <color name="img_mask_pressed">#44000000</color>
+    <color name="img_mask_normal">#00000000</color>
+    <color name="bg_page">#ffeff2f2</color>
+    <color name="item_title">#ff333f4d</color>
+    <color name="item_content">#ff8499a1</color>
+    <color name="txt_op">#ff728288</color>
+    <color name="txt_op_downloading">#ff728288</color>
+    <color name="section_name">#ff4d7f8f</color>
+    <color name="btn_option_menu">#ff4d7f8f</color>
+    <color name="txt_op_installed">#ff728288</color>
+    <color name="item_delta_text">#ff22d550</color>
+    <color name="dlg_title">#ffffffff</color>
+    <color name="dlg_msg">#ffffffff</color>
+    <color name="dlg_btn">#ff728288</color>
+    <color name="soft_comment_title_content_windows">#fff2fafc</color>
+    <color name="edit_text">#ff5b7078</color>
+    <color name="edit_text_hint">#ff999999</color>
+    <color name="bottom_button_text">#ff5b7078</color>
+    <color name="registertxt">#ffffcc00</color>
+    <color name="search_edit_text">#ff728288</color>
+    <color name="search_edit_hint_text">#ffd0d0d0</color>
+    <color name="search_voice_dialog_title">#ffffffff</color>
+    <color name="search_voice_dialog_list">#00000000</color>
+    <color name="search_voice_dialog_btn">#ffffffff</color>
+    <color name="search_voice_dialog_list_item">#ffffffff</color>
+    <color name="search_list_item_text">#ff8499a1</color>
+    <color name="search_query_keywords">#ff009cff</color>
+    <color name="hight_light_text">#ff009cff</color>
+    <color name="msg_detail_item_content">#ff8499a1</color>
+    <color name="msg_detail_edit_hint">#ff8499a1</color>
+    <color name="msg_detail_date">#ff8499a1</color>
+    <color name="msg_detail_edit">#ff1e395b</color>
+    <color name="msg_list_title">#ff4d7f8f</color>
+    <color name="msg_list_delete_btn">#ff8499a1</color>
+    <color name="detail_description">#ff5b7078</color>
+    <color name="detail_permissioln_danger_title">#ffe6d551</color>
+    <color name="detail_permissioln_normal_title">#ff7ea806</color>
+    <color name="detail_permissioln_ad_title">#ffd92338</color>
+    <color name="detail_permissioln_no_ad_title">#ff009cff</color>
+    <color name="detail_permission_content">#ff8499a1</color>
+    <color name="permissin_danger_group">#ffe6d551</color>
+    <color name="permission_normal_group">#ff9ebb45</color>
+    <color name="detail_permission_button_text_color">#ff8499a1</color>
+    <color name="detail_background">#fff0f1f3</color>
+    <color name="detail_cert_text">#ff6bd700</color>
+    <color name="detail_line_up">#ffc2ccd0</color>
+    <color name="detail_line_down">#ffc2ccd0</color>
+    <color name="detail_report_text">#ffff6666</color>
+    <color name="detail_top_text">#ff8499a1</color>
+    <color name="detail_softinfo_text">#ff8499a1</color>
+    <color name="detail_description_text">#ff4d7f8f</color>
+    <color name="detail_section_title_text">#ff4d7f8f</color>
+    <color name="detail_other_soft_text">#ff8499a1</color>
+    <color name="detail_download_progress_text">#ffffffff</color>
+    <color name="detail_collapse_btn_text">#ff8499a1</color>
+    <color name="detail_safe_text">#ff2c94dd</color>
+    <color name="detail_ads_text">#ffff9422</color>
+    <color name="detail_checking_text">#ffffffff</color>
+    <color name="detail_author_text">#ff0084ff</color>
+    <color name="score_text_color">#ffffffff</color>
+    <color name="score_bar_color">#ff0294f0</color>
+    <color name="strib_font_color">#ff8499a1</color>
+    <color name="comment_top_color">#ff708b95</color>
+    <color name="comment_bottom_color">#ff708b95</color>
+    <color name="comment_content">#ff333f4d</color>
+    <color name="category_name">#ff333f4f</color>
+    <color name="category_appname">#ff8499a1</color>
+    <color name="update_oldversion_newversion">#ff0294f0</color>
+    <color name="subject_des_color">#ff708b95</color>
+    <color name="subject_detail_des_color">#ff4d7f8f</color>
+    <color name="subject_detail_date_num">#ff8499a1</color>
+    <color name="subject_detail_edit_words_color">#ff8499a1</color>
+    <color name="subject_shape_start_color">#ffd7dada</color>
+    <color name="subject_shape_end_color">#ffeceded</color>
+    <color name="about_ver_color">#ff5b5c69</color>
+    <color name="about_color">#ff8c8b98</color>
+    <color name="about_color_a">#ff95c512</color>
+    <color name="theme_name">#ff4d7f8f</color>
+    <color name="setting_desc">#ff009cff</color>
+    <color name="setting_common_text">#ff4d7f8f</color>
+    <color name="setting_login_state">#ff009cff</color>
+    <color name="setting_download_number">#ff4d7f8f</color>
+    <color name="no_adaptive">#ff009cff</color>
+    <color name="weibo_text">#ff728288</color>
+    <color name="weibo_title_text">#ff728288</color>
+    <color name="weibo_accounts_text">#ff728288</color>
+    <color name="guide_bg_color">#ffd4dee4</color>
+    <color name="manage_download_fail">#ffff141a</color>
+    <color name="manage_recomend_desc">#ff8499a1</color>
+    <color name="manage_recomend_nocontent_txt">#ffb7bfc1</color>
+    <color name="update_feature_descr_txt_color">#ff8499a1</color>
+    <color name="update_recommend_btn_color">#ff8499a1</color>
+    <color name="update_flowrate_high_light_color">#ff22d550</color>
+    <color name="update_flowrate_txt_color">#ff8499a1</color>
+    <color name="loading_tips_color">#ffffffff</color>
+    <color name="bg_guide">#b2000000</color>
+    
+    
+    
+    <!-- zxing的颜色 -->
+	  <color name="contents_text">#ff000000</color>
+	  <color name="encode_view">#ffffffff</color>
+	  <color name="help_button_view">#ffcccccc</color>
+	  <color name="help_view">#ff404040</color>
+	  <color name="possible_result_points">#c0ffff00</color>  
+	  <color name="result_image_border">#ffffffff</color>
+	  <color name="result_minor_text">#ffc0c0c0</color>
+	  <color name="result_points">#c000ff00</color>
+	  <color name="result_text">#ffffffff</color>
+	  <color name="result_view">#b0000000</color>
+	  <color name="sbc_header_text">#ff808080</color>
+	  <color name="sbc_header_view">#ffffffff</color>
+	  <color name="sbc_list_item">#fffff0e0</color>
+	  <color name="sbc_layout_view">#ffffffff</color>
+	  <color name="sbc_page_number_text">#ff000000</color>
+	  <color name="sbc_snippet_text">#ff4b4b4b</color>
+	  <color name="share_text">#ff000000</color>
+	  <color name="share_view">#ffffffff</color>
+	  <color name="status_view">#50000000</color>
+	  <color name="status_text">#ffffffff</color>
+	  <color name="transparent">#00000000</color>
+	  <color name="viewfinder_frame">#ff000000</color>
+	  <color name="viewfinder_laser">#ffff0000</color>
+	  <color name="viewfinder_mask">#60000000</color>
+	  <color name="red">#E70000</color>
+</resources>

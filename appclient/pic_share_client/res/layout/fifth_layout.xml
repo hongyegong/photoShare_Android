@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:background="@color/white2" >
+    
+    <!-- 加载标题 -->
+
+    <include
+        layout="@layout/common_top_title_layout" />
+   	
+   	<LinearLayout android:id="@+id/orderprocess_wrap"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical" >
+   		
+       	<RelativeLayout
+       	    style="@style/OrderProcessRLayout"
+       	    android:layout_width="fill_parent"
+       	    android:layout_height="wrap_content"
+       	    android:layout_marginTop="20dip"
+       	    android:background="@drawable/preference_first_item"
+       	    android:onClick="setDO" >
+
+       		<TextView
+       		    style="@style/OrderProcessMSGTextView"
+       		    android:layout_height="wrap_content"
+       		    android:text="清空缓存" />
+
+			<ImageView
+			    style="@style/rightJianImageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="" />
+   
+		</RelativeLayout>
+   				
+   		<RelativeLayout
+   		    style="@style/OrderProcessRLayout"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/preference_item"
+   		    android:onClick="setDO" >
+
+       		<TextView
+       		    style="@style/OrderProcessMSGTextView"
+       		    android:layout_height="wrap_content"
+       		    android:text="关于我们" />
+
+			<ImageView
+			    style="@style/rightJianImageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="" />
+   	
+   		</RelativeLayout>
+   				
+   		<RelativeLayout
+   		    style="@style/OrderProcessRLayout"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/preference_last_item"
+   		    android:onClick="setDO" >
+
+       		<TextView
+       		    style="@style/OrderProcessMSGTextView"
+       		    android:layout_height="wrap_content"
+       		    android:text="提交反馈" />
+
+			<ImageView
+			    style="@style/rightJianImageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="" />
+   	
+   		</RelativeLayout>
+   		
+	    
+   		<Button
+	        android:id="@+id/set_cancel"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:layout_marginLeft="10dp"
+	        android:layout_marginRight="10dp"
+	        android:background="@drawable/btn_style_white"
+	        android:gravity="center"
+	        android:text="退出"
+	        android:textColor="@color/font_base"
+	        android:textSize="18sp"
+	        android:onClick="setDO"  />
+   		
+    </LinearLayout>
+		
+</RelativeLayout>

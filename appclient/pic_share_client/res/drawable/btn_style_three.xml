@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	android:state_selected 控件选中状态，可以为true或false
+	android:state_focused 控件获得焦点状态，可以为true或false
+	android:state_pressed 控件点击状态，可以为true或false
+	android:state_enabled 控件使能状态，可以为true或false
+	android:state_checkable 控件可勾选状态，可以为true或false
+	android:state_checked 控件勾选状态，可以为true或false
+	
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/btn_style_three_focused" android:state_focused="true" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_style_three_focused" android:state_focused="false" android:state_pressed="true"/>
+    <item android:drawable="@drawable/btn_style_three_focused" android:state_focused="true"/>
+    <item android:drawable="@drawable/btn_style_three_normal" android:state_focused="false"/>
+
+</selector>

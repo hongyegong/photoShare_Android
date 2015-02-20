@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:layout_margin="10dp"
+    android:background="#d6fed6">
+    
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/reader_root_item_bg">
+		    
+    <ImageView 
+        android:id="@+id/icon_layout"
+        android:layout_width="138dp"
+        android:layout_height="138dp"
+        android:layout_gravity="center_horizontal"
+	    android:scaleType="fitXY"
+        android:src="@drawable/no_my_pic"
+        />
+	    
+	    </LinearLayout>
+    
+	    <TextView 
+	        android:id="@+id/pic_name"
+	        android:layout_gravity="center_horizontal"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text=""
+	        android:textSize="15sp"
+	        android:textColor="#000"
+	        />
+    
+
+</LinearLayout>

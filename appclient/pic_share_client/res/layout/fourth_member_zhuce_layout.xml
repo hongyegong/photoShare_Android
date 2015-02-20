@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+     <ScrollView
+        android:id="@+id/scroll"  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:focusable="false"
+        android:fadingEdge="none"
+        android:scrollbars="vertical" >
+        
+    
+    <RelativeLayout android:orientation="vertical" android:id="@+id/loginWriteWrap"
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content"
+		android:clipChildren="true"
+		android:paddingTop="20dip"
+		android:paddingBottom="10dip"
+		android:background="@android:color/transparent">
+		
+	    <EditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/loginEmail"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="text"
+  			      android:focusable="true"
+	        	  android:background="@drawable/rounded_edittext_top"
+	        	  android:hint="请输入用户名"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </EditText>
+        
+	    
+	    <EditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/truename"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="text"
+	        	  android:background="@drawable/rounded_edittext_top"
+	        	  android:layout_below="@+id/loginEmail"
+	        	  android:hint="请输入昵称"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </EditText>
+	    
+	    <EditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/loginPassword"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="textPassword"
+	        	  android:background="@drawable/rounded_edittext_bottom"
+	        	  android:layout_below="@+id/truename"
+	        	  android:hint="请输入密码"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </EditText>
+        
+	    
+	    <EditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/loginPassword2"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="textPassword"
+	        	  android:background="@drawable/rounded_edittext_bottom"
+	        	  android:layout_below="@+id/loginPassword"
+	        	  android:hint="确认密码"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </EditText>
+        
+	    
+	    <TextView android:id="@+id/to_login"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	    	android:layout_below="@+id/loginPassword2"
+            android:textColor="@color/detail_description_text"
+            android:textSize="@dimen/detail_descrption_text_size"
+			android:layout_marginTop="30dp"
+			android:layout_marginLeft="20dp"
+			android:clickable="true"
+			android:onClick="memberDO"
+			android:checked="true"
+			android:layout_alignParentLeft="true"
+	        android:text=" 返回登陆界面" />
+	    
+            <Button
+	        android:id="@+id/capture_zhuce"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/btn_style_white"
+	        	  android:layout_below="@+id/to_login"
+	        android:gravity="center"
+	        android:text="马上注册"
+	        android:textColor="@color/font_base"
+	        android:textSize="18sp"
+	        android:onClick="memberDO"  />
+	
+	</RelativeLayout>
+	
+    </ScrollView>
+	

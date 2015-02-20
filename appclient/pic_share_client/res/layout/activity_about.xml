@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:background="#ffffff"
+  android:layout_height="fill_parent">
+    
+    <include layout="@layout/common_top_title_layout" />
+    
+    <TextView android:layout_marginTop="10px" 
+               android:paddingLeft="15px"
+              android:layout_height="wrap_content" 
+              android:textColor="#000000"
+              android:text="" 
+              android:layout_width="fill_parent" 
+              android:id="@+id/au_content">
+    </TextView>
+    
+    <View android:layout_width="fill_parent"
+             android:layout_height="1dip"
+              android:layout_marginTop="10px" 
+              android:background="#CCCCCC" />
+  
+   <TextView android:layout_marginTop="10px" 
+              android:layout_height="wrap_content" 
+              android:textColor="#000000"
+              android:paddingLeft="15px"
+              android:text="客服电话: \n  " 
+              android:layout_width="fill_parent" 
+              android:id="@+id/au_connetiontitle"
+              android:autoLink="phone"
+              ></TextView>
+   
+    <View android:layout_width="fill_parent"
+              android:layout_height="1dip"
+              android:layout_marginTop="10px" 
+              android:background="#CCCCCC" />     
+              
+   <TextView android:layout_marginTop="10px" 
+              android:layout_height="wrap_content" 
+              android:textColor="#000000"
+              android:paddingLeft="15px"
+              android:text="网址: \n " 
+              android:layout_width="fill_parent" 
+              android:autoLink="web"
+              android:id="@+id/au_web"></TextView>
+              
+</LinearLayout>

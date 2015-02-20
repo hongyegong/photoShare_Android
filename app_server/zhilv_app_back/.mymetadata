@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="zhilv_app_back"
+  id="myeclipse.1311337296165"
+  context-root="/zhilv_app_back"
+  j2ee-spec="5.0"
+  archive="zhilv_app_back.war">
+  <attributes>
+    <attribute name="webrootdir" value="/WebRoot" />
+  </attributes>
+</project-module>
+

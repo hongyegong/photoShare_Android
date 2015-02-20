@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical">
+        
+        <TextView
+           android:id="@+id/introduction_tag"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="7dp"
+           android:text="简介"
+           android:textColor="@color/font_base2"
+           android:textSize="20dip" />
+    
+        <TextView
+           android:id="@+id/introduction_tag"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:text="景区：\n地址：\n电话：\n推荐："
+           android:lineSpacingExtra="5dp"
+           android:textColor="@color/font_msg"
+           android:textSize="14dip" />
+        
+      <TextView
+           android:id="@+id/introduction_tag"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="7dp"
+           android:text="概况"
+           android:textColor="@color/font_base2"
+           android:textSize="20dip" />
+    
+        <TextView
+           android:id="@+id/introduction_tag"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="5dp"
+           android:text="            概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况概况"
+           android:lineSpacingExtra="5dp"
+           android:textColor="@color/font_msg"
+           android:textSize="14dip" />
+
+</LinearLayout>

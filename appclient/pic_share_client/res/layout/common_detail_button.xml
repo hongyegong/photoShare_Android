@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/relative_option_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="@drawable/bg_intro_download"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    android:paddingLeft="@dimen/detail_bottom_option_padding_left"
+    android:paddingRight="@dimen/detail_bottom_option_padding_left" >
+
+    <RelativeLayout
+        android:id="@+id/share_btn_wrap"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/share_btn"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/detail_share"
+            android:onClick="share"
+            android:text="分享" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/to_get_btn_warp"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/to_get_btn"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:onClick="to_sc"
+            android:text="收藏" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/to_show_btn_warp"
+        android:visibility="gone"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/to_show_btn"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:onClick="to_show"
+            android:text=" " />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/bottom_kabao_warp"
+        android:visibility="gone"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/bottom_kabao"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_favorite"
+            android:onClick="bottom_kabao"
+            android:text="添加卡包  " />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/bottom_kabao_warp_add"
+        android:visibility="gone"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/bottom_kabao_add"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_register"
+            android:onClick="bottom_kabao"
+            android:text="添加卡包  " />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/bottom_ditu_warp"
+        android:visibility="gone"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/bottom_ditu"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_detail"
+            android:onClick="bottom_map"
+            android:text="地图  " />
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:id="@+id/bottom_del_warp"
+        android:visibility="gone"
+        style="@style/bottom_bar_layout" >
+
+        <Button
+            android:id="@+id/bottom_del"
+            style="@style/detailButton"
+            android:drawableLeft="@drawable/ic_del"
+            android:onClick="bottom_del"
+            android:text="删除  " />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="60.0dip"
+    android:background="@color/main_bg_color" >
+    
+    <ImageView
+        android:id="@+id/ab_back"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:visibility="invisible"
+        android:clickable="true"
+        android:onClick="ab_back"
+        android:background="@drawable/arrow_back"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/anzhi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="30dip" 
+        android:text="@string/title_name" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:layout_marginRight="10dip"
+        android:clickable="true"
+        android:onClick="title_search"
+        android:orientation="horizontal" >
+            
+        <RelativeLayout 
+            android:id="@+id/title_search"
+		    android:layout_width="50dp"
+		    android:layout_height="40dp"
+            android:visibility="gone"
+		    android:background="@drawable/top_title_button" >
+			    
+	        <Button 
+	            android:layout_width="30dp"
+	            android:layout_height="30dp"
+	            android:layout_centerInParent="true"
+	            android:background="@drawable/ic_ab_search_normal"
+	            android:onClick="title_search"/>
+        
+        </RelativeLayout>
+    
+        
+        <Button 
+            android:id="@+id/title_share"
+            android:layout_width="60dp"
+            android:layout_height="40dp"
+            android:text="分享"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:background="@drawable/top_title_button"
+            android:onClick="share"/>
+            />
+        
+    </LinearLayout>
+
+</RelativeLayout>

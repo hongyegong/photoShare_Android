@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+    <include layout="@layout/common_top_title_layout" />
+<LinearLayout 
+  android:layout_width="fill_parent"
+  android:orientation="vertical"
+  android:layout_height="fill_parent">
+ 
+     <LinearLayout
+        android:focusable="true" android:focusableInTouchMode="true"
+        android:layout_width="0px" android:layout_height="0px"/>            
+    <EditText android:text="" 
+              android:id="@+id/help_feedback"
+              android:lines="5"
+              android:layout_margin="10dip"
+              android:padding="10dip"
+              android:gravity="top"
+              android:layout_marginTop="20dip"
+        	    android:background="@drawable/btn_dropdown_normal"
+              android:hint="请输入反馈意见(字数500以内)" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"></EditText>
+  <LinearLayout
+        android:layout_width="fill_parent"
+          android:orientation="vertical"
+          android:gravity="center"
+          android:layout_height="wrap_content">
+          
+      
+   		<Button
+	        android:id="@+id/but_help_feedback"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/btn_install"
+	        android:gravity="center"
+	        android:text="提交"
+	        android:textColor="@color/font_base"
+	        android:textSize="18sp"
+	        android:onClick="setDO"  />
+   		
+    </LinearLayout>  
+            
+</LinearLayout>
+ </LinearLayout>

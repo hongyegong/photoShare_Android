@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- 
+	android:state_selected 控件选中状态，可以为true或false
+	android:state_focused 控件获得焦点状态，可以为true或false
+	android:state_pressed 控件点击状态，可以为true或false
+	android:state_enabled 控件使能状态，可以为true或false
+	android:state_checkable 控件可勾选状态，可以为true或false
+	android:state_checked 控件勾选状态，可以为true或false
+	
+	
+	<item android:state_window_focused="false"   
+        android:drawable="@drawable/没有焦点时的图片背景" />   
+  <item android:state_focused="true" android:state_pressed="true"   
+        android:drawable=  
+              "@drawable/非触摸模式下获得焦点并单击时的背景图片" />   
+  <item android:state_focused="false" android:state_pressed="true"   
+        android:drawable="@drawable/触摸模式下单击时的背景图片" />   
+  <item android:state_selected="true"   
+        android:drawable="@drawable/选中时的图片背景" />   
+  <item android:state_focused="true"   
+        android:drawable="@drawable/获得焦点时的图片背景" /> 
+	
+	
+ -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:drawable="@color/main_top_right_selete" android:state_pressed="true"/>
+    <item android:drawable="@color/main_top_right_normal" android:state_pressed="false"/>
+    
+    <item android:drawable="@color/main_top_right_selete" android:state_selected="true"/>
+    <item android:drawable="@color/main_top_right_normal" android:state_selected="false"/>
+    
+    <item android:drawable="@color/main_top_right_selete" android:state_focused="true"/>
+    <item android:drawable="@color/main_top_right_normal" android:state_focused="false"/>
+
+</selector>

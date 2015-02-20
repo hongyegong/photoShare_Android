@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:id="@+id/loginWriteWrap"
+		android:layout_width="fill_parent" 
+		android:layout_gravity="bottom"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:clipChildren="true"
+		android:background="@android:color/transparent">
+		
+	    <com.myou.appclient.ui.CustomEditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/loginEmail"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="text"
+	        	  android:background="@drawable/rounded_edittext_top"
+	        	  android:hint="请输入用户名"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </com.myou.appclient.ui.CustomEditText>
+	    
+	    <EditText style="@style/CusEditText" android:layout_height="40dp" android:id="@+id/loginPassword"
+	        	  android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+	        	  android:inputType="textPassword"
+	        	  android:background="@drawable/rounded_edittext_bottom"
+	        	  android:layout_below="@+id/loginEmail"
+	        	  android:hint="请输入密码"
+	        	  android:layout_width="fill_parent">
+            <requestFocus />
+        </EditText>
+	    
+	    <TextView android:id="@+id/to_zhuce"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	    	android:layout_below="@+id/loginPassword"
+            android:textColor="@color/detail_description_text"
+            android:textSize="@dimen/detail_descrption_text_size"
+			android:layout_marginTop="30dp"
+			android:layout_marginLeft="20dp"
+			android:clickable="true"
+			android:onClick="memberDO"
+			android:checked="true"
+			android:layout_alignParentLeft="true"
+	        android:text="新用户注册" />
+		
+	    <CheckBox android:id="@+id/isSavePs"  style="@style/CusCheckBox"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	    	android:layout_below="@+id/loginPassword"
+			android:layout_marginTop="20dp"
+			android:layout_marginRight="25dp"
+			android:checked="true"
+			android:layout_gravity="right"
+			android:layout_alignParentRight="true"
+	        android:text="   记住密码" />
+	    
+            <Button
+	        android:id="@+id/capture_login"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="20dp"
+	        android:layout_marginLeft="20dp"
+	        android:layout_marginRight="20dp"
+	        android:background="@drawable/btn_style_white"
+	        	  android:layout_below="@+id/isSavePs"
+	        android:gravity="center"
+	        android:text="登陆"
+	        android:textColor="@color/font_base"
+	        android:textSize="18sp"
+	        android:onClick="memberDO"  />
+	
+	</RelativeLayout>

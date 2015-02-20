@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ >
+
+    <LinearLayout
+        android:id="@+id/orderprocess_wrap"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="70dp"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            style="@style/OrderProcessRLayout"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            android:background="@drawable/preference_first_item" >
+
+            <TextView
+                style="@style/MyKnowMSGTextView"
+                android:text="问题：" />
+
+            <TextView
+                android:id="@+id/set_shangban"
+                style="@style/MyKnowBaseTextView"
+                android:layout_marginLeft="60dp"
+                android:text="1+1等于几？" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/OrderProcessRLayout"
+            android:background="@drawable/preference_last_item"
+            android:paddingTop="6dp"
+            android:paddingBottom="6dp"
+            >
+
+            <TextView
+                style="@style/MyKnowMSGTextView"
+                android:textColor="@color/font_title"
+                android:text="答案：" />
+
+            <TextView
+                android:id="@+id/set_xiaban"
+                style="@style/MyKnowBaseTextView"
+                android:layout_marginLeft="60dp"
+                android:text="可能等于2吧" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

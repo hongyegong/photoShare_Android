@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/relative_top"
+            android:layout_width="fill_parent"
+            android:layout_height="80.0dip"
+            android:background="@drawable/bg_list_normal"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/list_item_inner_margin" >
+
+            <LinearLayout
+                android:id="@+id/top_linearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/table_cell"
+                    android:layout_width="0.0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0" >
+
+                <RelativeLayout
+                    android:id="@+id/table_cell"
+                    android:background="@drawable/btn_dropdown_normal"
+                    android:layout_width="60dip"
+                    android:layout_height="60dip" >
+                    
+                    <ImageView
+                        android:id="@+id/icon_layout"
+                        android:layout_width="56dip"
+                        android:layout_height="56dip"
+        				android:layout_centerInParent="true" 
+        	            android:scaleType="fitXY"
+        	            android:clickable="true"
+        	            android:onClick="memberDO"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"/>
+                    
+                  </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/grp_content"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="70dip"
+                        android:layout_marginTop="5dip"
+                        android:layout_marginRight="0.0dip"
+                        android:layout_toRightOf="@+id/icon_layout" >
+
+                        <TextView
+                            android:id="@+id/txt_name"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="账户："
+                            android:textColor="@color/item_title"
+                            android:textSize="@dimen/list_item_title_text_size"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/txt_nc"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/txt_name"
+                            android:layout_marginTop="10dip"
+                            android:ellipsize="end"
+                            android:singleLine="true"
+                            android:text="昵称："
+                            android:textColor="@color/item_title"
+                            android:textSize="@dimen/list_item_title_text_size"
+                            android:textStyle="bold" />
+                        
+                    </RelativeLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout android:id="@+id/orderprocess_wrap"
+    	android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+   		
+       	<RelativeLayout
+       	    style="@style/OrderProcessRLayout"
+       	    android:layout_width="fill_parent"
+       	    android:layout_height="wrap_content"
+       	    android:background="@drawable/preference_first_item"
+   		        android:id="@+id/my_share"
+       	    android:onClick="memberDO" >
+
+       		<TextView
+       		    style="@style/OrderProcessMSGTextView"
+       		    android:layout_height="wrap_content"
+       		    android:text="我的分享" />
+
+			<ImageView
+			    style="@style/rightJianImageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="" />
+   
+		</RelativeLayout>
+   				
+   		<RelativeLayout
+   		    style="@style/OrderProcessRLayout"
+   		    android:layout_width="fill_parent"
+   		    android:layout_height="wrap_content"
+   		    android:background="@drawable/preference_last_item"
+   		        android:id="@+id/my_shoucang"
+   		    android:onClick="memberDO" >
+
+       		<TextView
+       		    style="@style/OrderProcessMSGTextView"
+       		    android:layout_height="wrap_content"
+       		    android:text="我的收藏" />
+
+			<ImageView
+			    style="@style/rightJianImageView"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:contentDescription="" />
+   	
+   		</RelativeLayout>
+   		
+   		
+    </LinearLayout>
+        
+
+    </LinearLayout>
+</LinearLayout>

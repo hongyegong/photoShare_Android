@@ -1,0 +1,196 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+a,
+code,
+em,
+img,
+q,
+small,
+strong,
+dd,
+dl,
+dt,
+li,
+ol,
+ul,
+fieldset,
+form,
+label,
+table,
+tbody,
+tr,
+th,
+td,
+input {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 12px;
+  font-family: "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+  _font-family: Tahoma, Arial, Helvetica, STHeiti, sans-serif;
+  cursor: default;
+}
+html.hasFontSmoothing-false body {
+  font-family: Tahoma,Arial,Helvetica,STHeiti;
+}
+a img,
+:link img,
+:visited img {
+  border: 0;
+}
+table {
+  border-collapse: collapse;
+}
+ul {
+  list-style: none;
+}
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+  content: "";
+}
+
+#startpage {
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+#startpage #login-wrap {
+position: relative;
+margin: 0 auto;
+width: 880px;
+padding-bottom: 10px;
+}
+#startpage #login-form-wrap {
+width: 288px;
+}#startpage .input-wrap {
+width: 288px;
+height: 52px;
+margin-bottom: 3px;
+background: url(../img/startpage.png) no-repeat -210px -52px;
+position: relative;
+margin-right: 5px;
+}
+html {
+  background: url(../img/bigbg.png) repeat;
+}
+#startpage .input-wrap .input-icon {
+display: block;
+float: left;
+width: 16px;
+height: 16px;
+background: url(/img/icon/startpage-1231.$5800.png) no-repeat;
+_background-image: url(/img/icon/startpage-1231-ie6.$5126.png);
+margin: 18px 0 0 15px;
+_margin-left: 8px;
+}
+#startpage .startpage-input-text {
+width: 234px;
+padding: 10px;
+height: 32px;
+line-height: 32px;
+background: transparent url(/img/blank.$166.png) repeat;
+border: 0;
+outline: none;
+font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti;
+position: absolute;
+font-size: 16px;
+color: #8F8F8F;
+z-index: 20;
+}
+#startpage .input-wrap .input-icon {
+display: block;
+float: left;
+width: 16px;
+height: 16px;
+background: url(../img/startpage.png) no-repeat;
+margin: 18px 0 0 15px;
+_margin-left: 8px;
+}
+.skin-button-willblue {
+-moz-user-select: none;
+-webkit-user-select: none;
+cursor: pointer;
+overflow: hidden;
+position: relative;
+zoom: 1;
+height: 39px;
+line-height: 37px;
+padding-left: 5px;
+text-align: center;
+color: #FFF;
+}
+#ctrlbuttonlogin-submitlabel {
+font-size: 14px;
+letter-spacing: 10px;
+}
+.skin-button-willblue .ui-button-label {
+background: url('../img/button-bg.png') right -600px no-repeat;
+}
+#startpage #ctrlbuttonlogin-submitlabel {
+font-size: 14px;
+letter-spacing: 10px;
+}
+#startpage .hidden-submit {
+margin-left: -9999px;
+height: 0;
+}
+#startpage .input-button {
+display: block;
+width: 96px;
+height: 45px;
+background: url(../img/startpage.png) no-repeat -400px -200px;
+border: 0;
+cursor: pointer;
+float: left;
+margin-top: 4px;
+font-size: 16px;
+color: #8C8C8D;
+}.skin-button-willblue {
+	margin-top: 20px;
+cursor: pointer;
+line-height: 37px;
+text-align: center;
+color: #FFF;
+}
+.skin-button-willblue .ui-button-bg-left {
+background: url('../img/button-bg.png') left -600px no-repeat;
+}
+.skin-button-willblue .ui-button-bg-left {
+display: block;
+position: absolute;
+left: 0;
+top: 0;
+width: 5px;
+height: 39px;
+}
+#startpage #footer {
+position: absolute;
+width: 100%;
+font-size: 12px;
+color: #9ea0a3;
+bottom: 0px;
+text-align: center;
+}#startpage #footer a, #startpage #footer a:link, #startpage #footer a:visited {
+color: #9ea0a3;
+text-decoration: none;
+}
+#startpage .input-wrap.focus {
+  background-position: -210px 0;
+}
+#startpage .input-wrap.focus label {
+  color: #8F8F8F;
+}

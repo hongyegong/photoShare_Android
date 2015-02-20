@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------------
-tuShareÕıÊ½°æÔ´ÂëËµÃ÷£º
+picShare source descriptionï¼š
 
-libraryÎªviewpagerindicator¿âÏîÄ¿Ô´Âë
-pic_share_clientÎª½ğ¿¨°üÔ´Âë£¬¸ÃÏîÄ¿ĞèÒªlink libraryÏîÄ¿¡£
-zhilv_app_backÎªapp·şÎñ¶Ë£¬Ê¹ÓÃ×îÁ÷ĞĞµÄspring mvc + restlet¿ò¼Ü¡£
-picÎªweb¶Ë
+libraryis viewpagerindicator library source code.
+pic_share_client is source codeï¼Œhave to link library projects.
+zhilv_app_back is app server sideï¼Œwith popular spring mvc + restlet framework.
+pic is web side.
 
-apkÊı×ÖÇ©Ãû£ºandroid.keystore Á½¸öÃÜÂë¶¼ÊÇ£ºjinkabao
+Apk digital signatureï¼šandroid.keystore Both passwords areï¼šjinkabao
 
 
 			       
-				Hongye Gong£ºQQ£º825800403£¬Phone£º18801912490
+				Hongye Gongï¼šQQï¼š82580040ï¼ŒPhoneï¼š8184654575
 
                                
 -------------------------------------------------------------------------------------
